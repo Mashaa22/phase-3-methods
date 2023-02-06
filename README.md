@@ -396,8 +396,7 @@ def reverse_name(name)
   if name.class != String
     return nil
   end
-
-  name.reverse
+ name.reverse
 end
 
 reverse_name("Bob Ross")
